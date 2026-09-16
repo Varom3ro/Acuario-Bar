@@ -45,7 +45,8 @@ export const MesasGridModal = ({
 
   const mesasOcupadasCount = listaMesas.filter((m) => m.ocupada).length;
 
-  return (\n    <>
+  return (
+    <>
       {/* Backdrop */}
       <div
         className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs z-50 transition-opacity animate-fade-in"

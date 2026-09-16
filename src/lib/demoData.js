@@ -78,7 +78,8 @@ export const demoPedidos = [
     notas: 'Sin picante por favor',
     total: 45.50,
     created_at: new Date(Date.now() - 5 * 60000).toISOString(),
-    pedido_items: [\n      { id: 'pi1', cantidad: 2, notas: null, subtotal: 17.00, plato: { nombre: 'Bruschetta Clásica' } },
+    pedido_items: [
+      { id: 'pi1', cantidad: 2, notas: null, subtotal: 17.00, plato: { nombre: 'Bruschetta Clásica' } },
       { id: 'pi2', cantidad: 1, notas: 'Término medio', subtotal: 22.00, plato: { nombre: 'Lomo de Res a la Parrilla' } },
       { id: 'pi3', cantidad: 1, notas: null, subtotal: 4.50, plato: { nombre: 'Limonada Natural' } },
     ],
