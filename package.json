@@ -8,13 +8,6 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "@vitejs/plugin-react": "^6.1.1",
-    "tailwindcss": "^4.3.3",
-    "typescript": "~6.0.2",
-    "vite": "^8.3.0"
-  },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -24,6 +17,11 @@
     "qrcode.react": "^4.2.0",
     "react-router-dom": "^7.18.4",
     "sonner": "^2.0.8",
-    "zustand": "^5.0.15"
+    "zustand": "^5.0.15",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
   }
 }
